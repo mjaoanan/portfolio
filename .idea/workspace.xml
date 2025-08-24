@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3588a854-d744-42f0-bc93-0286ff797b18" name="Changes" comment="" />
+    <list default="true" id="3588a854-d744-42f0-bc93-0286ff797b18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/myportfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myportfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myportfolio/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/vite.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +43,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/baoht/OneDrive/Documents/Projects/JoyPortfolio",
+    "last_opened_file_path": "C:/Users/baoht/OneDrive/Documents/Projects/Sites/personal-site-app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,6 +52,34 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/myportfolio/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/myportfolio/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756063523527</updated>
-      <workItem from="1756063524826" duration="304000" />
+      <workItem from="1756063524826" duration="605000" />
     </task>
     <servers />
   </component>

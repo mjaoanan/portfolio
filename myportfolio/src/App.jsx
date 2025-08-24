@@ -1,35 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Timeline from "./Timeline.jsx";
+import Projects from "./Projects.jsx";
+
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+        <>
+            <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div className="container">
+                    <h3 className="text-white">Mirafe-Joy Aoanan</h3>
+                </div>
+            </nav>
+            <section className="bg-dark text-light">
+                <div className="container">
+                    <div className="intro">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, autem dolor dolore eaque nostrum
+                                nulla optio voluptate! Aliquam animi corporis, dolore harum magnam nemo qui quod voluptatem.
+                                Atque dolore esse exercitationem ipsa nostrum quaerat, reprehenderit.</p>
+                        </div>
+                        <div>
+                            <img src="/assets/Portfolioimg.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+            <section className="myTimeLine">
+                <Timeline></Timeline>
+            </section>
+
+            <section className="bg-dark text-light">
+                <div className="container">
+                    <h2>Projects</h2>
+                </div>
+                
+            </section>
+
+        </>
+    )
 }
 
 export default App

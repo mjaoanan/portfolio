@@ -1,0 +1,14 @@
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.myTimeLine {
+    height: 80dvh;
+}
